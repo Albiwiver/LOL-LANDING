@@ -1,3 +1,6 @@
+import { IoIosArrowRoundForward } from "react-icons/io";
+import { IoIosArrowRoundBack } from "react-icons/io";
+
 export const Slider = () => {
   return (
     <div className="flex justify-center w-full items-center h-8 mt-6 xl:hidden">

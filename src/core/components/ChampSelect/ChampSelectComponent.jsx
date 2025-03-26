@@ -1,6 +1,4 @@
 import { champObject } from "./components/ChampsData";
-import { IoIosArrowRoundForward } from "react-icons/io";
-import { IoIosArrowRoundBack } from "react-icons/io";
 import { useState } from "react";
 import React from "react";
 import { Slider } from "../../../common/slider";
@@ -113,13 +111,7 @@ export const ChampSelectComponent = () => {
               </p>
             </div>
           </div>
-          <div className="flex justify-center w-full items-center h-8 mt-6 xl:hidden">
-            <div className="w-full h-0.5 bg-[#bcbcbc]"></div>
-            <div className="flex justify-center w-1/5 items-center h-full ml-3">
-              <IoIosArrowRoundBack className="size-8 text-[#6C727E]" />
-              <IoIosArrowRoundForward className="size-8 text-[#c8aa6e]" />
-            </div>
-          </div>
+          <Slider />
         </div>
         <div className="flex flex-col w-full h-full justify-center items-center mt-8">
           {selectedChamp && (

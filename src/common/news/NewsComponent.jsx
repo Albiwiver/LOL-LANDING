@@ -1,5 +1,3 @@
-import { IoIosArrowRoundForward } from "react-icons/io";
-import { IoIosArrowRoundBack } from "react-icons/io";
 import React from "react";
 import { Slider } from "../slider";
 
@@ -71,13 +69,7 @@ export const NewsComponent = () => {
           </p>
         </div>
       </div>
-      <div className="flex justify-center w-full items-center h-8  pl-6 md:pl-12 py-8 lg:hidden">
-        <div className="w-full h-0.5 bg-[#bcbcbc]"></div>
-        <div className="flex justify-center w-1/5 items-center h-full ml-3">
-          <IoIosArrowRoundBack className="size-8 text-[#6C727E]" />
-          <IoIosArrowRoundForward className="size-8 text-[#c8aa6e]" />
-        </div>
-      </div>
+      <Slider />
     </section>
   );
 };
