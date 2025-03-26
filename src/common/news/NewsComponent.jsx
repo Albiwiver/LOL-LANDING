@@ -4,7 +4,7 @@ import { Slider } from "../slider";
 export const NewsComponent = () => {
   return (
     <section className="bg-[url('src/assets/images/backgrounds/News-bg.avif')] bg-no-repeat object-cover bg-center flex flex-col w-full min-h-[400px] h-auto">
-      <div className="lg:grid-cols-3 md:grid-cols-2 grid grid-cols-1 md:gap-4 lg:gap-8 items-center justify-center w-full h-full p-6 sm:px-8 lg:px-20 xl:px-32 2xl:px-50 ">
+      <div className="lg:grid-cols-3 md:grid-cols-2 grid grid-cols-1 md:gap-4 lg:gap-8 items-center justify-center w-full h-full p-6 sm:px-8 lg:px-20 xl:px-32">
         <div className="h-auto w-full mt-5 justify-center items-start col-span-3">
           <h2 className="font-bold text-2xl lg:text-3xl mb-4 italic">
             NOTICIAS DESTACADAS

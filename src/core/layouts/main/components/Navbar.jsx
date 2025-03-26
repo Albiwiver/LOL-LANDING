@@ -29,7 +29,7 @@ export const Navbar = () => {
 
   return (
     <div className="w-full h-[80px] bg-[#111111] fixed z-20">
-      <div className="flex justify-between items-center h-full px-4  w-">
+      <div className="flex justify-between items-center h-full px-4 lg:px-8">
         <div className="flex items-center space-x-4">
           <div className="flex">
             <a href="">
@@ -41,7 +41,7 @@ export const Navbar = () => {
                   hover:
                     "filter: invert(18%) sepia(92%) saturate(7487%) hue-rotate(358deg) brightness(100%) contrast(119%)",
                 }}
-                className="w-24 lg:w-20 "
+                className="w-24 lg:w-22 "
                 src="src/assets/logos/Riot-logo.svg"
                 alt=""
               />
@@ -132,6 +132,12 @@ export const Navbar = () => {
                 <div className="hidden hover:bg-[#333333] 2xl:flex justify-center rounded-lg items-center w-auto h-8 px-2 space-x-1 text-white">
                   <a className=" text-[16px] uppercase" href="">
                     merchandising
+                  </a>
+                  <MdArrowOutward className="text-[#7e7e7e]" />
+                </div>
+                <div className="hidden hover:bg-[#333333] 2xl:flex justify-center rounded-lg items-center w-auto h-8 px-2 space-x-1 text-white">
+                  <a className=" text-[16px] uppercase" href="">
+                    asistencia
                   </a>
                   <MdArrowOutward className="text-[#7e7e7e]" />
                 </div>
