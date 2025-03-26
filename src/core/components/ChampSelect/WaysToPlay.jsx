@@ -1,4 +1,4 @@
-import { modesToPlay } from "./components/waysToPlayData";
+import { modesToPlay } from "./components/WaysToPlayData";
 import { useState } from "react";
 
 export const WaysToPlay = () => {

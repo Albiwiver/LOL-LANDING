@@ -1,4 +1,4 @@
-import { champObject } from "./components/champsData";
+import { champObject } from "./components/ChampsData";
 import { useState } from "react";
 import React from "react";
 import { Slider } from "../../../common/slider";
