@@ -1,6 +1,6 @@
 export const SkinSection = () => {
   return (
-    <section className="w-full h-auto py-6 bg-[url(assets/images/backgrounds/skin-section-bg.avif)] bg-cover bg-no-repeat bg-center flex justify-center items-center">
+    <section className="w-full h-auto py-6 bg-[url('/assets/images/backgrounds/skin-section-bg.avif')] bg-cover bg-no-repeat bg-center flex justify-center items-center">
       <div className="container px-8 h-full w-full flex flex-col lg:flex-row items-center justify-center">
         <div className="w-full h-full flex flex-col justify-center lg:ml-20">
           <div className="block text-left text-white lg:order-last">
