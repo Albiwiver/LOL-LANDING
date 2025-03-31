@@ -1,11 +1,13 @@
+import akaliImg from "../../../assets/images/assasins-akali.avif";
+import akaliBg from "../../../assets/images/ChampSelectBackgrounds/assasins-bg.avif";
+
 export const champObject = [
   {
     type: "asesinos",
-    img: "src/assets/images/assasins-akali.avif",
+    img: akaliImg,
     champName: "akali",
     champDescription: "La asesina silenciosa",
-    champBackground:
-      "src/assets/images/ChampSelectBackgrounds/assasins-bg.avif",
+    champBackground: akaliBg,
   },
   {
     type: "luchadores",

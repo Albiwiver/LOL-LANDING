@@ -29,7 +29,7 @@ export const Navbar = () => {
 
   return (
     <div className="w-full h-[80px] bg-[#111111] fixed z-20">
-      <div className="flex justify-between items-center h-full px-4 lg:px-8">
+      <div className="flex justify-between items-center h-full px-4  lg:px-8">
         <div className="flex items-center space-x-4">
           <div className="flex">
             <a href="">
@@ -41,7 +41,7 @@ export const Navbar = () => {
                   hover:
                     "filter: invert(18%) sepia(92%) saturate(7487%) hue-rotate(358deg) brightness(100%) contrast(119%)",
                 }}
-                className="w-24 lg:w-22 "
+                className="w-24 lg:w-22 min-w-13"
                 src="src/assets/logos/Riot-logo.svg"
                 alt=""
               />
@@ -53,7 +53,7 @@ export const Navbar = () => {
           <div className="flex justify-center items-center w-auto">
             <a href="">
               <img
-                className="lg:hidden"
+                className="lg:hidden min-w-13"
                 src="src/assets/logos/LoL-logo.svg"
                 alt="league of legends logo"
               />
@@ -151,7 +151,7 @@ export const Navbar = () => {
             </div>
           </div>
         </div>
-        <div className="flex items-center space-x-4 lg:space-x-1">
+        <div className="flex items-center space-x-4 -mr-3.5 lg:space-x-1">
           <div className="hidden lg:flex text-white w-11 h-11 rounded-2xl -mr-0.5 justify-center items-center bg-[#282828]">
             <IoIosSearch className="size-7.5" />
           </div>

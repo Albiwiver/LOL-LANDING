@@ -116,7 +116,11 @@ export const ChampSelectComponent = () => {
         <div className="flex flex-col w-full h-full justify-center items-center mt-8">
           {selectedChamp && (
             <>
-              <img src={selectedChamp.img} alt={selectedChamp.champName} />
+              <img
+                src={selectedChamp.img}
+                alt={selectedChamp.champName}
+                className="max-w-[621px] max-h-[621px]"
+              />
               <div className="text-center mt-10">
                 <h2 className="uppercase font-medium lg:text-2xl">
                   {selectedChamp.champName}
