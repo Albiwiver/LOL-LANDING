@@ -46,7 +46,7 @@ export const ChampSelectComponent = () => {
           <div className="flex w-full h-auto justify-between items-center mt-6 lg:justify-between lg:mt-10">
             <div className="flex flex-col justify-center items-center hover:scale-110 transform duration-200">
               <img
-                src="src/assets/logos/assasins-logo.webp"
+                src="assets/logos/assasins-logo.webp"
                 className="brightness-50 hover:brightness-100 cursor-pointer mx-3 size-12 lg:size-16"
                 alt=""
                 onClick={() => handleClassClick("akali")}
@@ -57,7 +57,7 @@ export const ChampSelectComponent = () => {
             </div>
             <div className="flex flex-col justify-center items-center hover:scale-110 transform duration-200">
               <img
-                src="src/assets/logos/fighters-logo.avif"
+                src="assets/logos/fighters-logo.avif"
                 className="brightness-50 hover:brightness-100 cursor-pointer mx-3 size-12 lg:size-16"
                 alt=""
                 onClick={() => handleClassClick("yasuo")}
@@ -68,7 +68,7 @@ export const ChampSelectComponent = () => {
             </div>
             <div className="flex flex-col justify-center items-center hover:scale-110 transform duration-200">
               <img
-                src="src/assets/logos/wizards-logo.avif"
+                src="assets/logos/wizards-logo.avif"
                 className="brightness-50 hover:brightness-100 cursor-pointer mx-3 size-12 lg:size-16"
                 alt=""
                 onClick={() => handleClassClick("lux")}
@@ -79,7 +79,7 @@ export const ChampSelectComponent = () => {
             </div>
             <div className="flex flex-col justify-center items-center hover:scale-110 transform duration-200">
               <img
-                src="src/assets/logos/shooters-logo.webp"
+                src="assets/logos/shooters-logo.webp"
                 className="brightness-50 hover:brightness-100 cursor-pointer mx-3 size-12 lg:size-16"
                 alt=""
                 onClick={() => handleClassClick("jinx")}
@@ -90,7 +90,7 @@ export const ChampSelectComponent = () => {
             </div>
             <div className="lg:flex flex-col justify-center items-center hover:scale-110 transform duration-200 hidden">
               <img
-                src="src/assets/logos/supports-logo.avif"
+                src="assets/logos/supports-logo.avif"
                 className="brightness-50 hover:brightness-100 cursor-pointer mx-3 size-12 lg:size-16"
                 alt=""
                 onClick={() => handleClassClick("thresh")}
@@ -101,7 +101,7 @@ export const ChampSelectComponent = () => {
             </div>
             <div className="xl:flex flex-col justify-center items-center hover:scale-110 transform duration-200 hidden">
               <img
-                src="src/assets/logos/tanks-logo.avif"
+                src="assets/logos/tanks-logo.avif"
                 className="brightness-50 hover:brightness-100 cursor-pointer mx-3 size-12 lg:size-16"
                 alt=""
                 onClick={() => handleClassClick("leona")}

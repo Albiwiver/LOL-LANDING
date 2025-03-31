@@ -82,10 +82,10 @@ export const Footer = () => {
           </div>
           <div className="w-full h-auto flex justify-center items-center pt-2 pb-12">
             <div className="rounded-md bg-[#282828] p-3">
-              <img src="src/assets/images/footer-1.png" alt="" />
+              <img src="assets/images/footer-1.png" alt="" />
             </div>
             <div className="rounded-md bg-[#282828] p-3">
-              <img src="src/assets/images/footer-2.png" alt="" />
+              <img src="assets/images/footer-2.png" alt="" />
             </div>
           </div>
         </div>

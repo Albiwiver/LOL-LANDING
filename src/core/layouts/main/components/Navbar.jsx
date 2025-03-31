@@ -42,7 +42,7 @@ export const Navbar = () => {
                     "filter: invert(18%) sepia(92%) saturate(7487%) hue-rotate(358deg) brightness(100%) contrast(119%)",
                 }}
                 className="w-24 lg:w-22 min-w-13"
-                src="src/assets/logos/Riot-logo.svg"
+                src="assets/logos/Riot-logo.svg"
                 alt=""
               />
             </a>
@@ -54,7 +54,7 @@ export const Navbar = () => {
             <a href="">
               <img
                 className="lg:hidden min-w-13"
-                src="src/assets/logos/LoL-logo.svg"
+                src="assets/logos/LoL-logo.svg"
                 alt="league of legends logo"
               />
             </a>

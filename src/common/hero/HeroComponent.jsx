@@ -33,7 +33,7 @@ export const HeroComponent = ({
             <div className="w-60 h-60 justify-center items-center flex lg:w-76 lg:h-76 ">
               <a href="">
                 <img
-                  src="src/assets/images/Lol.png"
+                  src="assets/images/Lol.png"
                   alt="logo de league of legends"
                 />
               </a>

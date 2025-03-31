@@ -3,7 +3,7 @@ import { Slider } from "../slider";
 
 export const NewsComponent = () => {
   return (
-    <section className="bg-[url('src/assets/images/backgrounds/News-bg.avif')] bg-no-repeat object-cover bg-center flex flex-col w-full min-h-[400px] h-auto">
+    <section className="bg-[url('assets/images/backgrounds/News-bg.avif')] bg-no-repeat object-cover bg-center flex flex-col w-full min-h-[400px] h-auto">
       <div className="lg:grid-cols-3 md:grid-cols-2 grid grid-cols-1 md:gap-4 lg:gap-8 items-center justify-center w-full h-full p-6 sm:px-8 lg:px-20 lg:pb-18 xl:px-32">
         <div className="h-auto w-full mt-5 justify-center items-start col-span-3">
           <h2 className="font-bold text-2xl lg:text-3xl mb-4 italic">
@@ -13,7 +13,7 @@ export const NewsComponent = () => {
         <div className="flex flex-col w-full h-full overflow-hidden relative">
           <img
             className="hover:scale-110 duration-300 object-cover origin-center w-full h-full"
-            src="src/assets/images/News-first-image.avif"
+            src="assets/images/News-first-image.avif"
             alt=""
           />
           <div className="w-full h-auto justify-start items-center flex">
@@ -37,7 +37,7 @@ export const NewsComponent = () => {
         <div className="hidden md:flex flex-col w-full h-full overflow-hidden relative">
           <img
             className="hover:scale-110 duration-300 object-cover"
-            src="src/assets/images/News-second-image.avif"
+            src="assets/images/News-second-image.avif"
             alt=""
           />
           <div className="w-full h-auto justify-start items-center flex">
@@ -60,7 +60,7 @@ export const NewsComponent = () => {
         <div className="hidden lg:flex flex-col w-full h-full overflow-hidden">
           <img
             className="hover:scale-110 duration-300 object-cover"
-            src="src/assets/images/News-third-image.webp"
+            src="assets/images/News-third-image.webp"
             alt=""
           />
           <div className="w-full h-auto justify-start items-center flex">

@@ -10,7 +10,7 @@ export const WaysToPlay = () => {
   };
 
   return (
-    <section className="w-full h-auto py-12 flex justify-center items-center bg-[url(src/assets/images/backgrounds/ways-to-play-bg.avif)] bg-center bg-no-repeat bg-cover">
+    <section className="w-full h-auto py-12 flex justify-center items-center bg-[url(assets/images/backgrounds/ways-to-play-bg.avif)] bg-center bg-no-repeat bg-cover">
       <div className="container w-full h-full flex flex-col lg:flex-row px-8 justify-center items-center">
         <div className="flex justify-center w-full h-full items-center flex-col">
           <div className="w-full h-full flex flex-col justify-center items-center text-white">

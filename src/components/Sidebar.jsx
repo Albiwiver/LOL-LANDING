@@ -30,10 +30,7 @@ export const Sidebar = ({ data }) => {
     >
       <div className="container p-4 w-full h-full flex flex-col text-left font-bold text-white uppercase">
         <div className="w-full h-auto flex justify-between items-center">
-          <img
-            src="src/assets/logos/LoL-logo.svg"
-            alt="league of legends logo"
-          />
+          <img src="assets/logos/LoL-logo.svg" alt="league of legends logo" />
           <div className="text-white bg-[#333333] w-12 h-12 rounded-2xl justify-center items-center cursor-pointer flex">
             <IoMdClose onClick={closeSidebar} className="size-6" />
           </div>
